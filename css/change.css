@@ -1,0 +1,68 @@
+
+table{
+  background-color: #eac7cc;
+}
+/* 字体和按钮的样式 */
+
+td{
+  color: #ce7d88;
+  margin-left: 10px;
+}
+
+#submit {
+  padding: 15px;
+  background-color: #ce7d88;
+  border-color: #eac7cc;
+  color: #eac7cc;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#submit:hover {
+  background: #eac7cc;
+  border-color: #ce7d88;
+  color: #ce7d88;
+  border-radius: 5px;
+}
+/* 表单样式 */
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7px;
+  margin-top: -60px;
+  margin-left: -1300px;
+}
+
+input #old_passwd,#new_passwd,#new_passwd2{
+  background: #eac7cc;
+  width: 65%;
+  color: #ce7d88;
+  border: none;
+  border-bottom: 1px solid rgba(246, 246, 246, 0.5);
+  padding: 9px;
+  font-weight: 100;
+  margin-left: 15px;
+}
+input #old_passwd,#new_passwd,#new_passwd2::placeholder {
+  color: #f6f6f6;
+  letter-spacing: 2px;
+  font-size: 1.0em;
+  font-weight: 100;
+}
+input:focus {
+  color: #ce7d88;
+  outline: none;
+  border-bottom: 1.2px solid rgba(206, 125, 136, 0.7);
+  font-size: 1.0em;
+  transition: 0.8s all ease;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+input[type=checkbox] {
+  width: 15px;
+  background: #ce7d88;
+}

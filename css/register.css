@@ -1,0 +1,102 @@
+
+
+body {
+    background: #cbc0d3;
+}
+
+/* 容器的样式 */
+.container {
+    margin: auto;
+    width: 650px;
+    height: 550px;
+    position: relative;
+}
+.welcome {
+    background: #eac7cc;
+    width: 650px;
+    height: 415px;
+    position: absolute;
+    top: 10%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+table{
+    background-color: #eac7cc;
+}
+/* 字体和按钮的样式 */
+h1 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 95px;
+    text-transform: uppercase;
+    color: #f6f6f6;
+    font-size: 2em;
+    letter-spacing: 8px;
+    font-family: "幼圆";
+}
+td{
+    color: #ce7d88;
+}
+
+#submit {
+    padding: 12px;
+    background-color: #ce7d88;
+    border-color: #eac7cc;
+    color: #eac7cc;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background: #eac7cc;
+    border-color: #ce7d88;
+    color: #ce7d88;
+    border-radius: 5px;
+}
+/* 表单样式 */
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7px;
+}
+
+input {
+    background: #eac7cc;
+    width: 65%;
+    color: #ce7d88;
+    border: none;
+    border-bottom: 1px solid rgba(246, 246, 246, 0.5);
+    padding: 9px;
+    font-weight: 100;
+}
+input::placeholder {
+    color: #f6f6f6;
+    letter-spacing: 2px;
+    font-size: 1.0em;
+    font-weight: 100;
+}
+input:focus {
+    color: #ce7d88;
+    outline: none;
+    border-bottom: 1.2px solid rgba(206, 125, 136, 0.7);
+    font-size: 1.0em;
+    transition: 0.8s all ease;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+li {
+    font-family: "Open Sans", sans-serif;
+    color: #8e9aaf;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    margin-left: 1100px;
+    margin-top: 20px;
+}
+input[type=checkbox] {
+    width: 15px;
+    background: #ce7d88;
+}
